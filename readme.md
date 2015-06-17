@@ -2,4 +2,4 @@
 
 Currently something I need to build c++ services with libuv.
 
-Probably the smallest you can find except for gyp but it's what I know how to use currently.
+The resulting image is about 180 megs.
