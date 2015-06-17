@@ -2,7 +2,7 @@ FROM alpine
 
 #Install packages
 RUN apk update \
-	&& apk add gcc g++ libuv python git && rm -rf /var/cache/apk/*
+	&& apk add gcc g++ libuv make python git && rm -rf /var/cache/apk/*
 
 #Install vanilla gyp because that's how I learned to compile C
 RUN cd /tmp && curl https://bootstrap.pypa.io/ez_setup.py -o - | python \
