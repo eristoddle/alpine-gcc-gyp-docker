@@ -1,4 +1,4 @@
-# Docker Image: Alpine Linux with gcc g++ and gyp
+# Docker Image: Alpine Linux with gcc, g++, libuv, and gyp
 
 Currently something I need to build c++ services with libuv for heavy math.
 
